@@ -9,6 +9,13 @@ function App() {
         <header className="App-header">Cerissa's Dictionary</header>
         <Dictionary />
       </div>
+      <footer className="App-footer">
+        Code source
+        <a href="https://github.com/cerissad/Cerissa-s-Dictionary">
+          &nbsp;here&nbsp;
+        </a>{" "}
+        by Cerissa De Ocampo
+      </footer>
     </div>
   );
 }
