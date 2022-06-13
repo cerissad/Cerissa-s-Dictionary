@@ -1,4 +1,5 @@
 import React from "react";
+import "./Audio.css";
 
 export default function Audio(props) {
   let audio = props.audio;
@@ -9,7 +10,7 @@ export default function Audio(props) {
     return (
       <span>
         <a href={audio} target="_blank" rel="noreferrer">
-          Listen
+          <button>Listen</button>
         </a>{" "}
         -
       </span>

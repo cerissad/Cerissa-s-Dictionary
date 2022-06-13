@@ -6,3 +6,8 @@
   text-align: center;
   padding: 10px;
 }
+
+.Part header {
+  color: black;
+  font-size: large;
+}
